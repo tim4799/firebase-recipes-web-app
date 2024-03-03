@@ -12,3 +12,17 @@ yarn add firebase --exact
 --firebase 10.8.1
 
 git remote add origin https://github.com/tim4799/firebase-recipes-web-app.git
+
+Generate personal access token ->github.com -> settings -> Developer settings
+Refer to "Git& Github - The Practical Guide", Lesson 71, 72, 73
+In Terminal, not VSC
+git credential-osxkeychain erase <Enter>
+host=github.com <Enter>
+protocol=https <Enter>
+<Enter>
+
+git push -u origin main
+input login name <Enter>
+input token <Enter>
+
+firebase init
