@@ -26,3 +26,8 @@ input login name <Enter>
 input token <Enter>
 
 firebase init
+git push
+
+package.json
+"buildDeploy": "yarn build && firebase deploy --only hosting"
+yarn buildDeploy
